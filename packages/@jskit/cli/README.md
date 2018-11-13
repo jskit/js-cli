@@ -1,7 +1,5 @@
 # @jskit/cli
 
-A simple CLI for js projects.
-
 基于 `vue-cli@3.x` 修改，用于实现前端项目(包含小程序)的初始化、工具类批处理、公共文件引入等目的。
 
 ## Install
@@ -9,7 +7,7 @@ A simple CLI for js projects.
 Prerequisites: [Node.js](https://nodejs.org/en/) (>=6.x, 8.x preferred), npm version 3+ and [Git](https://git-scm.com/).
 
 ``` bash
-npm install -g @jskit/cli
+npm install -g js-cli
 ```
 
 ## 功能特性
@@ -52,7 +50,7 @@ js add
 
 ### 配置 config
 
-全局配置 `~/xminirc`
+全局配置 `~/jsclirc`
 
 ```conf
 {
@@ -92,7 +90,7 @@ js add
 }
 ```
 
-局部配置 `./xmini-config.js`
+局部配置 `./jscli-config.js`
 
 ```js
 module.exports = {
